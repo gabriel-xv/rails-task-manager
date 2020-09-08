@@ -1,0 +1,11 @@
+<div class="container">
+  <h2><%= @task.title %></h2>
+  <p><%= @task.details %></p>
+  <p><%= @task.completed %></p>
+
+  <div class="rounded">
+    <%= link_to 'Go back', tasks_path %>
+    <%= link_to 'Edit this task', edit_task_path %>
+  </div>
+</div>
+
